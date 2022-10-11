@@ -1,0 +1,691 @@
+@font-face {
+    font-family: 'Font2';
+    src: url('../fontovi/OleoScriptSwashCaps-Regular.ttf');
+}
+@font-face {
+    font-family: 'Font1';
+    src: url('../fontovi/WaterBrush-Regular.ttf');
+}
+@font-face {
+    font-family: 'Font3';
+    src: url('../fontovi/Hind-Regular.ttf');
+}
+@font-face {
+    font-family: 'Font4';
+    src: url('../fontovi/SourceSansPro-Regular.ttf');
+}
+@font-face {
+    font-family: 'Font5';
+    src: url('../fontovi/Hind-SemiBold.ttf');
+}
+
+/* #pozadina {
+    /* background: url(../slike/scott-webb-UjupleczBOY-unsplash.jpg); */
+/* } */
+div.omotac {
+    max-width: 1000px;   
+    width: 100%;
+    margin: 0 auto;
+}
+
+#pravcipoc {
+    margin: 0 auto;
+}
+h1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'font1';
+    margin-top: 10px;
+}
+nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 70px;
+    font-family: 'font3';
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    
+}
+nav ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul{
+    float: right;
+    margin-top: 10px;
+}
+button {
+    display: none;
+}
+header {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #696969;
+    position: fixed;
+    box-shadow: 0px 3px 15px;
+    z-index: 200;
+}
+
+#tekst {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 30px 0 30px 0;
+}
+.crtica::after {
+    content: '';
+    display: inline-block;
+    margin:  0 50px 0;
+    width: 90%;
+    border-bottom: 1px solid;
+    transform: translate(40px);
+}
+h2 {
+    font-size: 2.7em;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    font-family: 'Font5';
+    letter-spacing: 0.02em;
+}
+.naslovi2 {
+    margin: 0;
+    text-align: left;
+}
+.pravac h3 {
+    font-size: 2em;
+    font-family: 'Font3';
+    color: #000;
+    position: absolute;
+    transform: translate(0px, 260px);
+   
+}
+.pravac {
+    width: 30%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.pravac img {
+    height: 100%;
+}
+
+div.pravac {
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.pravac:nth-child(3n) {
+    margin-right:0;
+}
+.pravac img:hover {
+     filter: grayscale(0.8);
+}
+.umetnik h3 {
+    font-size: 2em;
+    color: #000;
+    position: absolute;
+    transform: translate(0px, 358px); 
+    font-family: 'Font3';
+}
+div.umetnik {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    width: 30%;
+   
+}
+.umetnik img {
+    width: 300px;
+    height: 350px;
+}
+#sviUmetnicni {
+    margin-left: 200px;
+}
+.umetnik:nth-child(2n) {
+    margin-left: 50px;
+}
+.umetnik:hover {
+    filter: grayscale(0.8);
+}
+/* .umetnik:nth-child(3n) {
+    margin-right: 0;
+} */
+#spavaca {
+    width: 60%;
+    float: right;
+    transform: translate(400px,0);
+    position: absolute;
+    
+}
+img[alt = 'slikatrpezarija'] {
+    width: 400px;
+}
+
+#enter {
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#poslednji {
+    width: 50%;
+    font-size: 1.5em;
+    position: absolute;
+    text-align: justify;
+    transform: translate(450px,310px);
+}
+#button {
+    position: absolute;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    float: right;
+    transform: translate(450px,450px);
+    background-color:#696969;
+    font-family: 'font3';
+}
+#button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+#button:hover {
+    background-color: #fff;
+    color: #696969;
+}
+footer {
+    background-color:  #696969;
+    height: 50px;
+}
+footer  {
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+footer a {
+        text-align: center;
+    text-decoration: none;
+     color: #fff;
+     /* position: absolute; */
+    
+     font-family: 'font4';
+    }
+footer a:hover {
+    border-bottom: 1px solid #fff;
+}
+#dropcontent {
+    display: none;
+}
+
+/* Izlozbe */
+/* #pozadina3 {
+    background: url(../slike/scott-webb-UjupleczBOY-unsplash\ -\ Copy2.jpg);
+} */
+video {
+    margin-top: 50px; 
+}
+.video h2{
+    font-size: 2em;
+}
+.video:last-child{
+    margin-bottom: 50px;
+}
+
+
+/* Umetnici */
+
+/* #pozadina2 {
+    background: url(../slike/scott-webb-UjupleczBOY-unsplash\ -\ Copy.jpg);
+} */
+
+.slikatekst:first-of-type {
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.slikatekst{
+    width: 40%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin: 0 auto;
+}
+.slikatekst img {
+        width: 70%;
+        transform: translate(75px, 0);
+}
+.slikatekst p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* slideshow */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgba(0,0,0,0.8);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:rgb(110, 104, 104);
+  color:  rgb(244, 231, 231);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:rgba(0,0,0,0.8);  
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(110, 104, 104);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    #pozadina2 header {
+        margin-top: -100px;
+    }
+    nav ul {
+        margin-right: 10px;
+    }
+    nav ul li {
+        margin-right: 30px;
+        font-size: 0.9em;
+    }
+    #tekst {
+        margin: 10px 10px 0 10px;
+    }   
+    h1 {
+    margin-left: 15px;
+    }
+    button {
+        display: none;
+    }
+/* .pravac { */
+    /* width: 50%; */
+    /* height: 250px;
+    overflow: hidden;
+    float: left;
+   
+}
+.pravac:nth-child(2n) {
+    margin-left: 0%;
+}
+.pravac img {
+    height: 100%;
+}   */
+#pravcipoc {
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+}
+.pravac h3 {
+font-size: 1.2em;
+}
+
+/* #pitm {
+    margin-right: 5%;
+} */
+
+#poslednji {
+    width: 40%;
+    padding-right: 5px;
+    box-sizing: border-box;
+    text-align: right;
+    transform: translate(420px, 180px);
+}
+.crtica::after {
+    width: 100%;
+}
+.crtica {
+    transform: translate(-90px, 0);
+    padding: 0 30px 0 30px;
+    box-sizing: border-box
+    ;
+}
+/* #button {
+    transform: translate(570px, 400px);
+
+} */
+#enter #button {
+    transform: translate(570px,380px);
+}
+#button {
+    font-size: 1em;
+}
+/* .slikatekst img {
+    transform: translate(80px,0);
+} */
+/* header {
+    margin-top: -100px;
+} */
+.slikatekst {
+    width: 80%;
+    margin-top: 100px;
+}
+
+.slikatekst img {
+    width: 50%;
+    float: left;
+    transform: translate(0,-80px);
+    
+}
+.slikatekst:first-of-type {
+    padding-top: 80px;
+    height: 388px;
+}
+.slikatekst:nth-child(2) {
+    height: 307px;
+    
+}
+.slikatekst:nth-child(3) {
+    height: 423px;
+    
+}
+.slikatekst:nth-child(4) {
+    height: 358px;
+    margin-top: -60px;
+}
+.slikatekst:nth-child(5) {
+    height: 410px;
+}
+.slikatekst:nth-child(6) {
+    height: 380px;
+    margin-top: -30px;
+}
+.slikatekst:nth-child(7) {
+    margin-top: 70px;
+}
+.slikatekst p {
+    text-align: right;
+    transform: translate(0,-80px);
+}
+#sviUmetnicni {
+    margin-left: 50px;
+}
+.umetnik:nth-child(2n) {
+    margin-left:90px;
+}
+
+.video h2 {
+    font-size: 1.1em;
+}
+#pozadina3 nav ul {
+    margin-right: 250px;
+}
+
+#pozadina2 nav ul {
+    margin-right: -2px;
+}
+#pozadina2 nav ul li {
+    margin-right: 30px;
+    font-size: 0.9em;
+}
+#spavaca {
+    width: 40%;
+}
+img[alt = 'slikatrpezarija'] {
+    width: 40%;
+    transform: translate(50px,0);
+}
+
+footer a {
+    text-align: center;
+}
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    header {
+        margin-top: 0px;
+    }
+    button {
+        display: block;
+        float: right;
+        background-color: #696969;
+        border: none;
+        transform: translate(150px,0);
+    }
+    #button {
+        transform: translate(100px,580px);
+    }
+    #meni {
+        width: 35px;
+        background-color: #696969;
+        transform: translate(0px, 3px);
+    }
+    #meni:hover {
+        background-color: #fff;
+    }
+    nav ul li a{
+        display: none;
+    }
+    #tekst {
+        font-size: 1em;
+    }
+
+   .pravac {
+       float: none;
+       width: 100%;
+   }
+    .crtica::after {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+       
+    }
+    .crtica {
+        transform: translate(-40px, 0);
+        padding: 0 15px 0 15px;
+        box-sizing: border-box;
+        
+      }
+    .pravac img {
+        width: 100%;
+    }
+   
+    .slikatekst p {
+        font-size: 1em;
+        display: block;
+        float: left;
+        text-align: center;
+       
+    }
+    .slikatekst img {
+        text-align: center;
+         transform: translate(33px,-80px);        
+        width: 70%;
+    }
+    h2 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 5px;
+    }
+    img[alt="slikatrpezarija"] {
+        width: 70%;
+    }
+    #spavaca {
+        width: 80%;
+        transform: translate(40px,410px);
+        position: absolute;
+        
+    }
+    footer a {
+        transform: translate(-20x, 0);
+        text-align: center;
+    }
+    div.umetnik {
+        width: 100%;
+    }
+    #sviUmetnicni {
+        padding-right: 70px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .umetnik:nth-child(2n) {
+        margin-left:0px;
+    }
+    .umetnik:nth-child(1) {
+        margin-left:0px;
+    }
+    .umetnik:nth-child(3) {
+        margin-left: 0px;
+    }
+
+    #umetnici {
+        transform: translate(0,350px);
+    }
+    #umetnici a{
+      font-size: 0.8em;
+      text-align: center;
+    }
+    #dropcontent {
+        display: none;
+        background-color: #696969;
+        width: 50%;
+        transform: translate(200px,0);
+    }
+    .padajuci {
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #696969;
+        padding: 5px;
+        margin-bottom: 5px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+
+    }
+    #pozadina #dropcontent {
+        transform: translate(200px,40px);
+    }
+    #pozadina2 #dropcontent {
+        transform: translate(200px,40px);
+    }
+    #pozadina3 button {
+        transform: translate(-10px,-42px);
+    }
+    .padajuci:hover {
+        color: #696969;
+        background-color: #fff;
+        
+    }
+    button a:hover {
+        background-color: #fff;
+    }
+    video {
+        width: 100%;
+    }
+    .video h2 {
+        font-size: 0.8em;
+    }
+    #izlozbe {
+        transform: translate(0);
+    }
+    #poslednji{
+        display: none;
+    }
+    #pozadina footer {
+        transform: translate(0,300px);
+
+    }
+    #enter #button {
+        transform: translate(105px,580px)
+    }
+} 
